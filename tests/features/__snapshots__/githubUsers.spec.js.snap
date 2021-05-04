@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Github fetch Users deverá retornar o usuario que exista 1`] = `
+Object {
+  "bio": "Graduating in systems analysis and development",
+  "githubPage": "https://github.com/franciscoMarinh",
+  "nome": "Francisco marinho",
+}
+`;
