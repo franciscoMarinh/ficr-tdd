@@ -1,0 +1,7 @@
+version: '3.0'
+
+services:
+  tdd-ficr-test:
+    build: ./dockerfiles/dockerfile.dev
+    container_name: 'tdd-ficr-test'
+    env_file: .env.test

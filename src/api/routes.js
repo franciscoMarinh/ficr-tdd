@@ -32,7 +32,7 @@ class RouterController {
 
 	async _applyRoutes() {
 		const routes = await this._importRoutesForApply();
-		routes.forEach((route) => this.routes.use(route));
+		routes.forEach((route) => this.routes.use('/api', route));
 	}
 
 	get routes() {
